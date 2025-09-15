@@ -28,8 +28,11 @@ Patient(ID PK, Name, DOB,consultantID,WardID"FK")
 Nurses(ID PK, Name,WardID"FK")
 Wards(ID PK, Name)
 Drugs(Code PK, RecDosage)
+patientDrug (PatientID,DrugCode)
 Brands (Drugid FK , brand)
 Consultants(ID PK, Name)
+PatientNurserelation(NurseID,PatientID)
+
 
 
 

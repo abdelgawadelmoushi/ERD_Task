@@ -2,7 +2,7 @@
 ERD_Task
 
 Mapping 1
-Musician(ID PK, Name, Address, Phone)
+Musician(ID PK, Name, Phone , st , city)
 Instrument(Name PK, Key)
 Album(ID PK, Title, CopyrightDate)
 Song(Title PK, Author)
@@ -16,7 +16,7 @@ AppearsAt(MusicianID FK - Musician, CityName, PK(MusicianID, CityName))
 
 Mapping 2
 
-Property(ID PK, Name, Location)
+Property(ID PK, Name, Add , city , state , Zip)
 Owner(ID PK, Name, Address)
 SalesOffice(Number PK, City, State, Zip)
 Employee(ID PK, Name)
